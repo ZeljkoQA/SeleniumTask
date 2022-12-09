@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+    <test name="Tests">
+        <classes>
+            <class name="tests.FailedUserNameTest"></class>
+            <class name="tests.FailedPasswordTest"></class>
+            <class name="tests.LoginTest"></class>
+            <class name="tests.WrongCredentialsTest"></class>
+            <class name="tests_with_login.LogOutTest"></class>
+            <class name="tests_with_login.RemoveItemTest"></class>
+            <class name="tests_with_login.ShoppingItemTest"></class>
+        </classes>
+    </test>
+</suite>
